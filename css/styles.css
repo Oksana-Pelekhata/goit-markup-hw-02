@@ -6,6 +6,7 @@
     --color-wight: #FFFFFF;
     --background-grey: #F5F4FA;
     --footer-rgba: rgba(255, 255, 255, 0.6);
+    --active-button:#188CE8;
 }
 
 body{
@@ -33,7 +34,9 @@ color: var(--selection-color);
 .logo-black{
     color: #000000;
 }
-.logo:hover, .logo:focus {
+
+.logo-black:hover, .logo-black:focus,
+.logo-blue:hover, .logo-blue:focus {
     color: var(--selection-color);
 }
 
@@ -48,7 +51,7 @@ color: var(--selection-color);
 { color: var(--color-black);
 }
 
-.tel {color: var(--color-grey);
+.mail, .tel {color: var(--color-grey);
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
@@ -56,8 +59,7 @@ color: var(--selection-color);
 .mail:focus,
 .tel:hover,
 .tel:focus,
-.header-nav-link-current,
-.mail
+.header-nav-link-current
  {
     color: var(--selection-color);
 }
@@ -89,6 +91,9 @@ color: var(--color-wight);
         color: var(--color-wight);
     cursor: pointer;
 }
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
+    background-color: var(--active-button);
+}
 
 /*----------advantages--------*/
 .hide {
@@ -104,7 +109,7 @@ color: var(--color-wight);
     width: 1px;
     word-wrap: normal !important;
 }
-.adv{
+.advan {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.1429;
@@ -112,7 +117,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-black);
 }
-.adv-text{
+.advan-text {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7142;
@@ -198,7 +203,7 @@ color: var(--selection-color);
 
 /*--------Portfolio-----*/
 
-.portfolio-list-btn, .portfolio-list-current-btn {
+.portfolio-list-btn {
     font-family: inherit;
 font-weight: 500;
     font-size: 16px;
@@ -207,10 +212,15 @@ font-weight: 500;
     letter-spacing: 0.03em;
 color: var(--color-black);
 background: var(--background-grey);
+cursor: pointer;
 }
-.portfolio-list-current-btn {
+
+.portfolio-list-btn:hover, .portfolio-list-btn:focus {
+    color: var(--color-wight);
     background-color: var(--selection-color);
 }
+
+
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
