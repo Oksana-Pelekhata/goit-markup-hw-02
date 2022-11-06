@@ -118,7 +118,7 @@ text-transform: uppercase;
 color: var(--color-black);
 }
 .advan-text {
-        font-weight: 400;
+    
         font-size: 14px;
         line-height: 1.7142;
         letter-spacing: 0.03em;
@@ -150,7 +150,7 @@ font-weight: 500;
     color: var(--color-black);
 }
 .position {
-        font-weight: 400;
+
         font-size: 16px;
         line-height: 1.1875;
         text-align: center;
@@ -181,7 +181,7 @@ color: var(--color-wight);
 }
 
 .address {
-font-weight: 400;
+
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -229,7 +229,7 @@ cursor: pointer;
     color: var(--color-black);
 }
 .portfolio-text {
-font-weight: 400;
+
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
